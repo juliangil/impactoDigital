@@ -716,6 +716,48 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 /* ===== End team ===== */
 
+/* ===== Begin proceso ===== */
+
+.proceso-item {
+}	
+
+.proceso-item img {
+    max-width: 100%;
+    width:60%; 
+    height:60%; 
+}
+.proceso-items {
+	margin-bottom: 50px;
+	padding-top: 10px;
+	margin-top: 0;
+	text-align: center;
+}
+
+.proceso-hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: auto;
+	background: rgba( 103, 109, 117, 0.9);
+	opacity: 0;
+	-webkit-transition: opacity 0.4s ease-in; /* For Safari 3.1 to 6.0 */
+    transition: opacity 0.4s ease-in;
+}
+.proceso-item .content:hover .proceso-hover {
+	opacity: 1;
+}
+
+.proceso-hover p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 4000;
+    margin-top: 0;
+    text-align: center;
+}
+
+/* ===== End proceso ===== */
+
 
 /* ===== Begin partners ===== */
 #partners-section {
